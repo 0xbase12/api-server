@@ -12,6 +12,20 @@
   - Dynamic load namespace helper
   - Pricing related resources moved to another artifact
 
+## [5.19.0](https://www.github.com/0xbase12/api-server/compare/v5.18.0...v5.19.0) (2021-11-04)
+
+
+### Features
+
+* why not to jump ([e28dfe9](https://www.github.com/0xbase12/api-server/commit/e28dfe950e220969618012ef0de9c121146d2cec))
+
+
+### Bug Fixes
+
+* release update add some extra steps ([b1ca027](https://www.github.com/0xbase12/api-server/commit/b1ca027e05d3c09d85bc54dc2b3881a7490da329))
+* too early to update copyright ([5057663](https://www.github.com/0xbase12/api-server/commit/5057663c08a2d95a051ca1336ce8ecb2b31e354e))
+* update copyright year ([500aca1](https://www.github.com/0xbase12/api-server/commit/500aca168c75607df7f846f3e6085007ba75b557))
+
 ## [5.18.0] - 2021-10-28
 
 ### Changed
@@ -662,5 +676,3 @@ Test release to verify release process.
 ### Changed
 
   - Update parent to version 6.3.0.
-
- 

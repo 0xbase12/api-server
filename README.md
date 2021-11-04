@@ -83,7 +83,7 @@ formatting standardized.
 
 ## Copyright
 
-Copyright &copy; 2019-2021, SixSq SA
+Copyright &copy; 2019-2023, SixSq SA
 
 ## License
 

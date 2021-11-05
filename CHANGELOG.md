@@ -12,6 +12,13 @@
   - Dynamic load namespace helper
   - Pricing related resources moved to another artifact
 
+### [5.19.1](https://www.github.com/0xbase12/api-server/compare/v5.19.0...v5.19.1) (2021-11-05)
+
+
+### Bug Fixes
+
+* **utils:** update encode to support unicode ([7327cf1](https://www.github.com/0xbase12/api-server/commit/7327cf132baa11a0b43e256ef7c5a7c9778565ef))
+
 ## [5.19.0](https://www.github.com/0xbase12/api-server/compare/v5.18.0...v5.19.0) (2021-11-04)
 
 

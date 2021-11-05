@@ -12,6 +12,16 @@
   - Dynamic load namespace helper
   - Pricing related resources moved to another artifact
 
+### [5.19.2](https://www.github.com/0xbase12/api-server/compare/v5.19.1...v5.19.2) (2021-11-05)
+
+
+### Bug Fixes
+
+* debug ([fcef116](https://www.github.com/0xbase12/api-server/commit/fcef116a3bf8b58b00fb0ee4a5a17b79db826cae))
+* **github-action:** echo step.release.outputs ([3abd284](https://www.github.com/0xbase12/api-server/commit/3abd2846ed94a45411bd9ad3e0cefa5a9dac6351))
+* minor ([c26ede5](https://www.github.com/0xbase12/api-server/commit/c26ede5b5b3ad8160931ab85272a870b7d8155cd))
+* minor ([76a512a](https://www.github.com/0xbase12/api-server/commit/76a512a167f12934efec1671f4729b4f6115da96))
+
 ### [5.19.1](https://www.github.com/0xbase12/api-server/compare/v5.19.0...v5.19.1) (2021-11-05)
 
 

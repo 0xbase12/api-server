@@ -8,7 +8,9 @@
      runs-on: ubuntu-latest
      steps:
        - uses: GoogleCloudPlatform/release-please-action@v2
+         id: release
          with:
+           command: release-pr
            token: ${{ secrets.GITHUB_TOKEN }}
            release-type: simple
        - uses: actions/checkout@v2

@@ -13,7 +13,7 @@
            command: release-pr
            token: ${{ secrets.GITHUB_TOKEN }}
            release-type: simple
-       - run: echo ${{ steps.release.outputs.release_created }}
+       - run: echo ${{ steps.release.outputs.release_created }} END
        - uses: actions/checkout@v2
         # these if statements ensure that a publication only occurs when
         # a new release is created:

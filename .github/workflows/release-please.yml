@@ -26,8 +26,8 @@
            git config user.name "GitHub Actions Bot"
            git config user.email "kb@example.com"
            git status
-           touch hello
-           git add hello
+           touch hello1
+           git add hello1
            git commit -m 'fix: hello should loop'
            git push
        - run: git status

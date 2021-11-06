@@ -16,6 +16,7 @@
        - run: echo $OUT
          env:
            OUT: ${{ toJson(steps.release.outputs) }}
+       - uses: actions/checkout@v2
        - name: git
          run: |
            # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
@@ -27,9 +28,5 @@
            git add hello
            git commit -m 'fix: hello should loop'
            git push
-       - uses: actions/checkout@v2
-        # these if statements ensure that a publication only occurs when
-        # a new release is created:
-         if: ${{ steps.release.outputs.release_created }}
        - run: git status
          if: ${{ steps.release.outputs.release_created }}
